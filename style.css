@@ -1,0 +1,14 @@
+td {
+  border: black 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+td:nth-child(odd) {
+  background: coral;
+}
+
+td:nth-child(even) {
+  background: teal;
+  color:white;
+}
